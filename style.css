@@ -108,12 +108,38 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-.contact-nav {
+/* .contact-nav {
   font-size: 20px;
   margin: 20px;
-}
+} */
 
-.contact-nav-home {
+/* .contact-nav-home {
   margin: 20px;
   padding: 15px;
+} */
+
+.contact-nav ul {
+  margin: 0;
+}
+
+.contact-nav li {
+  display: inline;
+}
+
+.contact-nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.contact-nav a:hover {
+  background-color: #fc8600;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(247, 237, 237, 0.3);
 }
