@@ -8,9 +8,16 @@ body {
   padding: 40px;
 }
 
+/* .content-about {
+  background-color: white;
+  max-width: 600px;
+  margin: 0;
+} */
+
 .content-about {
   max-width: 500px;
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 20px;
   padding: 40px;
   background-color: white;
 }
@@ -82,7 +89,9 @@ button {
 
 input[type="text"],
 textarea {
-  width: 100%;
+  display: block;
+  width: 450px;
+  /* max-width: auto; */
   padding: 10px;
   margin: 6px 0px;
   border: 1px solid #ccc;
@@ -92,6 +101,7 @@ textarea {
 input[type="submit"] {
   background-color: #4caf50;
   width: 100%;
+  /* max-width: auto; */
   padding: 20px 10px;
   margin: 20px 0px;
   border: 1px solid #ccc;
@@ -143,3 +153,7 @@ input[type="submit"]:hover {
   font-weight: bold;
   border-bottom: 1px solid rgba(247, 237, 237, 0.3);
 }
+
+/* main-nav li {
+  padding: 0, 5%;
+} */
